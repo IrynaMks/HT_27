@@ -9,7 +9,7 @@ public class Main {
         }
 
         System.out.println("#2 - calculate arithmetical");
-        int end = 120;
+        int end = 100;
         double result = 0;
         for (int i = 1; i <= end; i++)
             result = result + i;
