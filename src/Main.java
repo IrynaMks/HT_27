@@ -26,16 +26,18 @@ public class Main {
         if (Res_Div(n) > 0) {
             System.out.println("result of division " + Res_Div(100));
             System.out.println("number of iterraions - " + Res_Div(n));
-        } else {
+        }
+        else {
             System.out.println("set number is too small");
         }
     }
 
-    static double Res_Div (int setNumber) {
+     static double Res_Div (int setNumber) {
         int n = 0;
-        double p;
-        for (p = setNumber; p > 50; n++)
+        double p=setNumber;
+        while (p > 50)
             p = p / 2;
+            n++;
         return p, n;
     }
         */
