@@ -4,18 +4,18 @@ public class Main {
 
         System.out.println("#1 - multiplication table for 3");
 
-        for (int i=0; i<10; i++) {
-            System.out.println("3 * " + i + " = " + (i*3));
+        for (int i = 0; i < 10; i++) {
+            System.out.println("3 * " + i + " = " + (i * 3));
         }
 
         System.out.println("#2 - calculate arithmetical");
-        int end = 100;
+        int end = 120;
         double result = 0;
-        for (int i=1; i<=end; i++)
-        result = result+i;
+        for (int i = 1; i <= end; i++)
+            result = result + i;
         {
-            System.out.println("from 0 to "+ end);
-            System.out.println("arithmetic mean =  " + (result/end));
+            System.out.println("from 0 to " + end);
+            System.out.println("arithmetic mean =  " + (result / end));
         }
 
        /* вроді як має бути умова if при виводі результатів, але перемінні 2 шт
@@ -40,3 +40,4 @@ public class Main {
     }
         */
     }
+}
